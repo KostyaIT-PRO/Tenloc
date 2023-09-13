@@ -1,0 +1,108 @@
+.blog{
+    padding: 100px 0;
+    background-color: #F5F5F5;
+    
+    &__slider{
+        max-width: 1440px;
+        overflow: hidden;
+    }
+    &__inner{
+        position: relative;
+    }
+
+    &__top{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 61px;
+    }
+
+    &__card-img{
+        margin-bottom: 23px;
+        border-radius: 20px;
+    }
+    &__card-date{
+        margin-bottom: 17px;
+        color: #828282;
+        font-size: 13px;
+    }
+
+    &__card-text{
+        margin-bottom: 26px;
+        color: #252525;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 25px;
+    }
+    &__card-link{
+        max-width: 110px;
+        border-radius: 200px;
+        padding: 8px 8px;
+        border: 1px solid #E2E2E2;
+        display: inline-block;
+        font-size: 14px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+    }
+    &__card-link::after{
+        content: '';
+        background-image: url('../images/icon/more-img.svg');
+        background-size: cover;
+        background-position: center;
+        width: 14px;
+        height: 14px;
+
+    }
+    &__top-link{
+        padding: 12px 22px;
+        background-color: #fff;
+        border-radius: 50px;
+        font-style: 16px;
+    }
+}
+
+.swiper-button-prev{
+    width: 44px;
+    height: 44px;
+    border-radius: 100%;
+    border: 1px solid #D2D2D2;
+    left: 145px;
+    top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-button-prev:after{
+    display: none;
+}
+.swiper-button-next:after{
+    display: none;
+}
+
+.swiper-button-next{
+    width: 44px;
+    height: 44px;
+    border-radius: 100%;
+    border: 1px solid #D2D2D2;
+    left: 200px;
+    top: 25px;
+}
+
+.swiper-button-img{
+    width: 19px;
+    height: 19px;
+}
+
+.swiper-button-next img{
+    transform: rotate(180deg);
+}
+.swiper-slide {
+    width: 326px;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}

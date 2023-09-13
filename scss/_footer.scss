@@ -1,0 +1,125 @@
+.footer{
+    background-color: #FBFBFB;
+    &__inner{
+        max-width: 1440px;
+        padding: 100px 0;
+        display: flex;
+        gap: 92px;
+    }
+    &__logo{
+        display: inline-block;
+        margin-bottom: 45px;
+    }
+    &__application{
+        width: 225px;
+    }
+    &__application-text{
+        width: 146px;
+        line-height: 25px;
+        margin-bottom: 18px;
+    }
+
+    &__bottom{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 18px 0 19px;
+        border-top: 1px solid #E2E2E2;
+        font-size: 13px;
+    }
+
+    &__menu{
+        display: flex;
+        justify-content: space-between;
+        gap: 55px;
+    }
+    &__menu-list{
+        max-width: 300px;
+    }
+    &__menu-title{
+        margin-bottom: 19px;
+        color: #252525;
+        font-weight: 600;
+        line-height: 30px;
+    }
+    &__menu-item{
+        margin-bottom: 20px;
+        font-size: 14px;
+        display: flex;
+        align-items: self-start;
+    }
+    &__menu-item:last-child{
+        margin-bottom: 0;
+    }
+    &__menu-itemtel::before{
+        content: '';
+        background-image: url('../images/icon/phone-icon.svg');
+        width: 10px;
+        height: 10px;
+        background-position: center;
+        background-size: cover;
+        margin-right: 10px;
+    }
+    &__menu-itememail::before{
+        content: '';
+        background-image: url('../images/icon/mail-icon.svg');
+        width: 10px;
+        height: 10px;
+        background-position: center;
+        background-size: cover;
+        margin-right: 10px;
+    }
+    &__menu-itemstrit::before{
+        content: '';
+        background-image: url('../images/icon/location-icon.svg');
+        width: 10px;
+        height: 12px;
+        background-position: center;
+        background-size: cover;
+        margin-right: 10px;
+    }
+    &__span{
+        display: flex;
+        flex-direction: row;
+        font-weight: 600;
+        margin-right: 3px;
+        align-items: center;
+    }
+    &__bottom-card{
+        display: flex;
+        align-items: center;
+    }
+    &__bottom-cardimg{
+        margin-right: 75px;
+    }
+    &__bottom-text{
+        display: flex;
+        align-items: center;
+    }
+    &__bottom-link{
+        margin-left: 7px;
+    }
+    &__application-box{
+        display: flex;
+        gap: 9px;
+    }
+}
+
+.social{
+    display: flex;
+    gap: 15px;
+    &__link{
+        display: inline-block;
+        width: 40px;
+        height: 40px;
+        border-radius: 5px;
+        border: 1px solid #DFDFDF;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__img{
+        width: 22px;
+        height: 22px;
+    }
+}

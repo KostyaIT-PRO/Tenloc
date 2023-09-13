@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <title>Tenloc</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="container header__inner">
+                    <div class="header__box">
+                        <a href="#" class="logo-link">
+                            <img src="./images/icon/logo.svg" alt="" class="logo__img">
+                        </a>
+                        <div class="header__dropdown">
+                            <button class="header__dropbtn">Направления</button>
+                            <div class="header__dropdown-content">
+                                <a class="header__dropdown-link" href="#">Ссылка 1</a>
+                                <a class="header__dropdown-link" href="#">Ссылка 2</a>
+                                <a class="header__dropdown-link" href="#">Ссылка 3</a>
+                            </div>
+                        </div>
+                        <ul class="menu">
+                            <li class="menu__item"><a href="" class="menu__link">О сервисе</a></li>
+                            <li class="menu__item"><a href="" class="menu__link">Блог</a></li>
+                            <li class="menu__item"><a href="" class="menu__link menu__link-arow">Помощь клиентам</a></li>
+                        </ul>
+                    </div>
+                    <div class="header__icon-entrance">
+                        <span class="header__lice"></span>
+                        <button class="header__entrance-btn">Вход</button>
+                    </div>
+                </div>
+            </div>
+        </header>
+    
+        <main class="main">
+            <section class="top">
+                <div class="container top__inner">
+                    <h1 class="top__title">
+                        Поиск и бронирование экскурсий
+                    </h1>
+                    <img src="./images/icon/top-line-decor.svg" alt="" class="top__line-decor">
+                    <p class="top__text text">Экскурсии и частные гиды в России и за рубежом</p>
+                    <div class="top__search">
+                        <form class="top__search-form">
+                            <div>
+                                <img class="top__search-form-icon" src="./images/icon/pin-iconss.svg" alt="pinc-icon">
+                                <input class="top__search-form-text" type="text" placeholder="Выберете направление">
+                            </div>
+                            <hr class="top__search-form-line">
+                            <div>
+                                <img class="top__search-form-icon" src="./images/icon/calendar-icon.svg" alt="pinc-icon">
+                                <input class="top__search-form-date" type="date" placeholder="Дата">
+                            </div>
+                            <button class="top__search-form-btn" type="submit">Найти</button>
+                        </form>
+                    </div>
+                    <ul class="top__frequent">
+                        <p class="top__frequent-text">Часто ищут:</p>
+                        <li class="top__frequent-item"><a class="top__frequent-link" href="">Дубай</a></li>
+                        <li class="top__frequent-item"><a class="top__frequent-link" href="">Стамбул</a></li>
+                        <li class="top__frequent-item"><a class="top__frequent-link" href="">Санкт-Петербург</a></li>
+                        <li class="top__frequent-item"><a class="top__frequent-link" href="">Казань</a></li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="popular">
+                <div class="container">
+                    <h2 class="popular__title section-title">Популярные направления</h2>
+                    <p class="popular__text">Проводим индивидуальные и групповые экскурсии на русском языке</p>
+                    <div class="popular__inner">
+                        <div class="popular__card" style="background-image: url('./images/popular-img1.jpg');">
+                            <div class="popular__card-content">
+                                <p class="popular__card-text">Дубай</p>
+                                <a class="popular__card-link" href="#">15 экскурсий</a>
+                            </div>
+                        </div>
+                        <div class="popular__card" style="background-image: url('./images/popular-img2.jpg');">
+                            <div class="popular__card-content">
+                                <p class="popular__card-text">Стамбул</p>
+                                <a class="popular__card-link" href="#">15 экскурсий</a>
+                            </div>
+                        </div>
+                        <div class="popular__card" style="background-image: url('./images/popular-img3.jpg');">
+                            <div class="popular__card-content">
+                                <p class="popular__card-text">Санкт-Петербург</p>
+                                <a class="popular__card-link" href="#">15 экскурсий</a>
+                            </div>
+                        </div>
+                        <div class="popular__card" style="background-image: url('./images/popular-img4.jpg');">
+                            <div class="popular__card-content">
+                                <p class="popular__card-text">Карелия</p>
+                                <a class="popular__card-link" href="#">15 экскурсий</a>
+                            </div>
+                        </div>
+                        <div class="popular__card" style="background-image: url('./images/popular-img5.jpg');">
+                            <div class="popular__card-content">
+                                <p class="popular__card-text">Калининград</p>
+                                <a class="popular__card-link" href="#">15 экскурсий</a>
+                            </div>
+                        </div>
+                        <div class="popular__card" style="background-image: url('./images/popular-img6.jpg');">
+                            <div class="popular__card-content">
+                                <p class="popular__card-text">Мурманск</p>
+                                <a class="popular__card-link" href="#">15 экскурсий</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="excursions">
+                <div class="container">
+                    <div class="excursions__top">
+                        <h2 class="excursions__title section-title">Экскурсии</h2>
+                        <form id="excursionsForm" class="excursions__form" name="excursionsForm" action="select1.php" method="post">
+                            <select name="excursionsForm">
+                                <option checked>Выберите город</option>
+                                <option value="Москва">Москва</option>
+                                <option value="Санкт-Питербург">Санкт-Пeтербург</option>
+                                <option value="Краснодар">Краснодар</option>
+                                <option value="Сочи">Сочи</option>
+                            </select>
+                            <input type="date" value="date" >
+                        </form>
+                    </div>
+                    <div class="excursions__tinner">
+                        <div class="excursions__card">
+                            <img src="./images/excursions-img1.jpg" alt="" class="excursion__card-img">
+                            <div class="excursions__card-content">
+                                <h4 class="excursions__card-title">
+                                    Коллекция Эрмитажа и парадная жизнь Зимнего дворца
+                                </h4>
+                                <p class="excursions__card-text">
+                                    Двухчасовая экскурсия по Эрмитажу в мини-группе — история 
+                                    Зимнего дворца и шедевры мастеров Западной Европы.
+                                </p>
+                                <hr class="excursions__card-line">
+                                <p class="excursions__card-price">
+                                    <span class="excursions__card-pricebig">от 2750 ₽ /</span>
+                                    с чел
+                                </p>
+                                <div class="excursions__dropdown">
+                                    <button class="excursions__dropbtn">Выбере время</button>
+                                    <div class="excursions__dropdown-content">
+                                        <a class="excursions__dropdown-link" href="#">с 10.00 до 13.00</a>
+                                        <a class="excursions__dropdown-link" href="#">с 14.00 до 16.00</a>
+                                        <a class="excursions__dropdown-link" href="#">с 16.00 до 20.00</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="excursions__card-like"></div>
+                            <div class="excursions__card-plus"></div>
+                        </div>
+                        <div class="excursions__card">
+                            <img src="./images/excursions-img2.jpg" alt="" class="excursion__card-img">
+                            <div class="excursions__card-content">
+                                <h4 class="excursions__card-title">
+                                    По дюнам на квадроциклах, катание на верблюдах и ужин в пустыне
+                                </h4>
+                                <p class="excursions__card-text">
+                                    Двухчасовая экскурсия по Эрмитажу в мини-группе — история 
+                                    Зимнего дворца и шедевры мастеров Западной Европы.
+                                </p>
+                                <hr class="excursions__card-line">
+                                <p class="excursions__card-price">
+                                    <span class="excursions__card-pricebig">от 2750 ₽ /</span>
+                                    с чел
+                                </p>
+                                <span class="excursions__card-time">
+                                    с 10.00 до 16.00
+                                </span>
+                            </div>
+                            <div class="excursions__card-like"></div>
+                            <div class="excursions__card-plus"></div>
+                        </div>
+                        <div class="excursions__card">
+                            <img src="./images/excursions-img3.jpg" alt="" class="excursion__card-img">
+                            <div class="excursions__card-content">
+                                <h4 class="excursions__card-title">
+                                    Весь Калининград с земли и воды: экскурсия на автобусе и кораблике
+                                </h4>
+                                <p class="excursions__card-text">
+                                    Двухчасовая экскурсия по Эрмитажу в мини-группе — история 
+                                    Зимнего дворца и шедевры мастеров Западной Европы.
+                                </p>
+                                <hr class="excursions__card-line">
+                                <p class="excursions__card-price">
+                                    <span class="excursions__card-pricebig">от 2750 ₽ /</span>
+                                    с чел
+                                </p>
+                                <div class="excursions__dropdown">
+                                    <button class="excursions__dropbtn">Выбере время</button>
+                                    <div class="excursions__dropdown-content">
+                                        <a class="excursions__dropdown-link" href="#">с 10.00 до 13.00</a>
+                                        <a class="excursions__dropdown-link" href="#">с 14.00 до 16.00</a>
+                                        <a class="excursions__dropdown-link" href="#">с 16.00 до 20.00</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="excursions__card-like"></div>
+                            <div class="excursions__card-plus"></div>
+                        </div>
+                        <div class="excursions__card">
+                            <img src="./images/excursions-img4.jpg" alt="" class="excursion__card-img">
+                            <div class="excursions__card-content">
+                                <h4 class="excursions__card-title">
+                                    Must-visit: экскурсия по великому Босфору на пароме с аудиогидом
+                                </h4>
+                                <p class="excursions__card-text">
+                                    Двухчасовая экскурсия по Эрмитажу в мини-группе — история 
+                                    Зимнего дворца и шедевры мастеров Западной Европы.
+                                </p>
+                                <hr class="excursions__card-line">
+                                <p class="excursions__card-price">
+                                    <span class="excursions__card-pricebig">от 2750 ₽ /</span>
+                                    с чел
+                                </p>
+                                <span class="excursions__card-time">
+                                    с 10.00 до 16.00
+                                </span>
+                            </div>
+                            <div class="excursions__card-like"></div>
+                            <div class="excursions__card-plus"></div>
+                        </div>
+                        <div class="excursions__card">
+                            <img src="./images/excursions-img5.jpg" alt="" class="excursion__card-img">
+                            <div class="excursions__card-content">
+                                <h4 class="excursions__card-title">
+                                    Из Дубаи в Фуджейру: снорклинг, Индийский океан, барбекю
+                                </h4>
+                                <p class="excursions__card-text">
+                                    Двухчасовая экскурсия по Эрмитажу в мини-группе — история 
+                                    Зимнего дворца и шедевры мастеров Западной Европы.
+                                </p>
+                                <hr class="excursions__card-line">
+                                <p class="excursions__card-price">
+                                    <span class="excursions__card-pricebig">от 2750 ₽ /</span>
+                                    с чел
+                                </p>
+                                <div class="excursions__dropdown">
+                                    <button class="excursions__dropbtn">Выбере время</button>
+                                    <div class="excursions__dropdown-content">
+                                        <a class="excursions__dropdown-link" href="#">с 10.00 до 13.00</a>
+                                        <a class="excursions__dropdown-link" href="#">с 14.00 до 16.00</a>
+                                        <a class="excursions__dropdown-link" href="#">с 16.00 до 20.00</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="excursions__card-like"></div>
+                            <div class="excursions__card-plus"></div>
+                        </div>
+                        <div class="excursions__card">
+                            <img src="./images/excursions-img6.jpg" alt="" class="excursion__card-img">
+                            <div class="excursions__card-content">
+                                <h4 class="excursions__card-title">
+                                    Коллекция Эрмитажа и парадная жизнь Зимнего дворца
+                                </h4>
+                                <p class="excursions__card-text">
+                                    Двухчасовая экскурсия по Эрмитажу в мини-группе — история 
+                                    Зимнего дворца и шедевры мастеров Западной Европы.
+                                </p>
+                                <hr class="excursions__card-line">
+                                <p class="excursions__card-price">
+                                    <span class="excursions__card-pricebig">от 2750 ₽ /</span>
+                                    с чел
+                                </p>
+                                <span class="excursions__card-time">
+                                    с 10.00 до 16.00
+                                </span>
+                            </div>
+                            <div class="excursions__card-like"></div>
+                            <div class="excursions__card-plus"></div>
+                        </div>
+                        <div class="excursions__card">
+                            <img src="./images/excursions-img7.jpg" alt="" class="excursion__card-img">
+                            <div class="excursions__card-content">
+                                <h4 class="excursions__card-title">
+                                    Териберка — путешествие на край севера с выходом в Баренцево море
+                                </h4>
+                                <p class="excursions__card-text">
+                                    Двухчасовая экскурсия по Эрмитажу в мини-группе — история 
+                                    Зимнего дворца и шедевры мастеров Западной Европы.
+                                </p>
+                                <hr class="excursions__card-line">
+                                <p class="excursions__card-price">
+                                    <span class="excursions__card-pricebig">от 2750 ₽ /</span>
+                                    с чел
+                                </p>
+                                <div class="excursions__dropdown">
+                                    <button class="excursions__dropbtn">Выбере время</button>
+                                    <div class="excursions__dropdown-content">
+                                        <a class="excursions__dropdown-link" href="#">с 10.00 до 13.00</a>
+                                        <a class="excursions__dropdown-link" href="#">с 14.00 до 16.00</a>
+                                        <a class="excursions__dropdown-link" href="#">с 16.00 до 20.00</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="excursions__card-like"></div>
+                            <div class="excursions__card-plus"></div>
+                        </div>
+                        <div class="excursions__card">
+                            <img src="./images/excursions-img8.jpg" alt="" class="excursion__card-img">
+                            <div class="excursions__card-content">
+                                <h4 class="excursions__card-title">
+                                    «Жемчужина Карелии» — тур в Рускеалу из Петрозаводска
+                                </h4>
+                                <p class="excursions__card-text">
+                                    Двухчасовая экскурсия по Эрмитажу в мини-группе — история 
+                                    Зимнего дворца и шедевры мастеров Западной Европы.
+                                </p>
+                                <hr class="excursions__card-line">
+                                <p class="excursions__card-price">
+                                    <span class="excursions__card-pricebig">от 2750 ₽ /</span>
+                                    с чел
+                                </p>
+                                <span class="excursions__card-time">
+                                    с 10.00 до 16.00
+                                </span>
+                            </div>
+                            <div class="excursions__card-like"></div>
+                            <div class="excursions__card-plus"></div>
+                        </div>
+                    </div>
+                    <a class="excursions__link" href="#">Все экскурсии</a>
+                </div>
+            </section>
+
+            <section class="feedback">
+                <div class="container">
+                    <div class="feedback__inner">
+                        <div class="feedback__content">
+                            <h2 class="feedback__title section-title">Отзывы</h2>
+                            <p class="feedback__text text">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo, aliquid!
+                            </p>
+                            <button class="feedback__btn">Оставить отзыв</button>
+                        </div>
+                        <div class="feedback__slider">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <img class="feedback__slide-img" src="./images/feedback-img1.jpg" alt="">
+                                    <div class="feedback__slide-content">
+                                        <p class="feedback__slide-name">Александр</p>
+                                        <div class="feedback__slide-tourbox">
+                                            <p class="feedback__slide-tour">
+                                                Тур:
+                                                <span class="feedback__slide-country">Калининград</span>
+                                            </p>
+                                            <p class="feedback__slide-rating">
+                                                Оценка:
+                                                <span class="feedback__slide-grade">
+                                                    <img class="feedback__slide-grade-star" src="./images/icon/grade-star.svg" alt="star">
+                                                    <img class="feedback__slide-grade-star" src="./images/icon/grade-star.svg" alt="star">
+                                                    <img class="feedback__slide-grade-star" src="./images/icon/grade-star.svg" alt="star">
+                                                    <img class="feedback__slide-grade-star" src="./images/icon/grade-star.svg" alt="star">
+                                                    <img class="feedback__slide-grade-star" src="./images/icon/grade-star.svg" alt="star">
+                                                </span>
+                                            </p>
+                                        </div>
+                                        <p class="feedback__slide-text">
+                                            Хочу сказать огромное спасибо нашему гиду Катерине! гуляйте
+                                            по крышам - не пожалеете не на секунду, город с высоты и с видом
+                                            на центр настолько необычен что захватывает дух! И обязательно
+                                            берите удобную обувь и фотоаппараты для полного погружения
+                                            в романтику крыш!
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img class="feedback__slide-img" src="./images/feedback-img1.jpg" alt="">
+                                    <div class="feedback__slide-content">
+                                        <p class="feedback__slide-name">Александр</p>
+                                        <div class="feedback__slide-tourbox">
+                                            <p class="feedback__slide-tour">
+                                                Тур:
+                                                <span class="feedback__slide-country">Калининград</span>
+                                            </p>
+                                            <p class="feedback__slide-rating">
+                                                Оценка:
+                                                <span class="feedback__slide-grade">
+                                                    <img class="feedback__slide-grade-star" src="./images/icon/grade-star.svg" alt="star">
+                                                    <img class="feedback__slide-grade-star" src="./images/icon/grade-star.svg" alt="star">
+                                                    <img class="feedback__slide-grade-star" src="./images/icon/grade-star.svg" alt="star">
+                                                    <img class="feedback__slide-grade-star" src="./images/icon/grade-star.svg" alt="star">
+                                                    <img class="feedback__slide-grade-star" src="./images/icon/grade-star.svg" alt="star">
+                                                </span>
+                                            </p>
+                                        </div>
+                                        <p class="feedback__slide-text">
+                                            Хочу сказать огромное спасибо нашему гиду Катерине! гуляйте
+                                            по крышам - не пожалеете не на секунду, город с высоты и с видом
+                                            на центр настолько необычен что захватывает дух! И обязательно
+                                            берите удобную обувь и фотоаппараты для полного погружения
+                                            в романтику крыш!
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img class="feedback__slide-img" src="./images/feedback-img1.jpg" alt="">
+                                    <div class="feedback__slide-content">
+                                        <p class="feedback__slide-name">Александр</p>
+                                        <div class="feedback__slide-tourbox">
+                                            <p class="feedback__slide-tour">
+                                                Тур:
+                                                <span class="feedback__slide-country">Калининград</span>
+                                            </p>
+                                            <p class="feedback__slide-rating">
+                                                Оценка:
+                                                <span class="feedback__slide-grade">
+                                                    <img class="feedback__slide-grade-star" src="./images/icon/grade-star.svg" alt="star">
+                                                    <img class="feedback__slide-grade-star" src="./images/icon/grade-star.svg" alt="star">
+                                                    <img class="feedback__slide-grade-star" src="./images/icon/grade-star.svg" alt="star">
+                                                    <img class="feedback__slide-grade-star" src="./images/icon/grade-star.svg" alt="star">
+                                                    <img class="feedback__slide-grade-star" src="./images/icon/grade-star.svg" alt="star">
+                                                </span>
+                                            </p>
+                                        </div>
+                                        <p class="feedback__slide-text">
+                                            Хочу сказать огромное спасибо нашему гиду Катерине! гуляйте
+                                            по крышам - не пожалеете не на секунду, город с высоты и с видом
+                                            на центр настолько необычен что захватывает дух! И обязательно
+                                            берите удобную обувь и фотоаппараты для полного погружения
+                                            в романтику крыш!
+                                        </p>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <img class="feedback__slide-img" src="./images/feedback-img1.jpg" alt="">
+                                    <div class="feedback__slide-content">
+                                        <p class="feedback__slide-name">Александр</p>
+                                        <div class="feedback__slide-tourbox">
+                                            <p class="feedback__slide-tour">
+                                                Тур:
+                                                <span class="feedback__slide-country">Калининград</span>
+                                            </p>
+                                            <p class="feedback__slide-rating">
+                                                Оценка:
+                                                <span class="feedback__slide-grade">
+                                                    <img class="feedback__slide-grade-star" src="./images/icon/grade-star.svg" alt="star">
+                                                    <img class="feedback__slide-grade-star" src="./images/icon/grade-star.svg" alt="star">
+                                                    <img class="feedback__slide-grade-star" src="./images/icon/grade-star.svg" alt="star">
+                                                    <img class="feedback__slide-grade-star" src="./images/icon/grade-star.svg" alt="star">
+                                                    <img class="feedback__slide-grade-star" src="./images/icon/grade-star.svg" alt="star">
+                                                </span>
+                                            </p>
+                                        </div>
+                                        <p class="feedback__slide-text">
+                                            Хочу сказать огромное спасибо нашему гиду Катерине! гуляйте
+                                            по крышам - не пожалеете не на секунду, город с высоты и с видом
+                                            на центр настолько необычен что захватывает дух! И обязательно
+                                            берите удобную обувь и фотоаппараты для полного погружения
+                                            в романтику крыш!
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                                <div class="feedback__slider-btn">
+                                    <div class="swiper-button-prev">
+                                        <img class="swiper-buttom-img" src="./images/icon/arrow-left.svg" alt="">
+                                    </div>
+                                    <div class="swiper-button-next">
+                                        <img class="swiper-buttom-img" src="./images/icon/arrow-left.svg" alt="">
+                                    </div>
+                                </div>
+                                <div class="feedback__slider-pagination">
+                                    <div class="swiper-pagination"></div>
+                                </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="blog">
+                <div class="container blog__inner">
+                    <div class="blog__top">
+                        <div class="blog__top-box">
+                            <h2 class="blog__title section-title">Блог</h2>
+                        </div>
+                        <a href="" class="blog__top-link">В блог</a>
+                    </div>
+                    <div class="blog__slider">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="blog__card">
+                                    <img class="blog__card-img" src="./images/blog-img1.jpg" alt="">
+                                    <p class="blog__card-date">Сегодня 15:25</p>
+                                    <p class="blog__card-text">Программа автобусной экскурсии из Петербурга в Выборг</p>
+                                    <a href="#" class="blog__card-link">Читать</a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="blog__card">
+                                    <img class="blog__card-img" src="./images/blog-img2.jpg" alt="">
+                                    <p class="blog__card-date">Сегодня 15:25</p>
+                                    <p class="blog__card-text">Программа автобусной экскурсии из Петербурга в Выборг</p>
+                                    <a href="#" class="blog__card-link">Читать</a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="blog__card">
+                                    <img class="blog__card-img" src="./images/blog-img3.jpg" alt="">
+                                    <p class="blog__card-date">Сегодня 15:25</p>
+                                    <p class="blog__card-text">Программа автобусной экскурсии из Петербурга в Выборг</p>
+                                    <a href="#" class="blog__card-link">Читать</a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="blog__card">
+                                    <img class="blog__card-img" src="./images/blog-img4.jpg" alt="">
+                                    <p class="blog__card-date">Сегодня 15:25</p>
+                                    <p class="blog__card-text">Программа автобусной экскурсии из Петербурга в Выборг</p>
+                                    <a href="#" class="blog__card-link">Читать</a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="blog__card">
+                                    <img class="blog__card-img" src="./images/blog-img1.jpg" alt="">
+                                    <p class="blog__card-date">Сегодня 15:25</p>
+                                    <p class="blog__card-text">Программа автобусной экскурсии из Петербурга в Выборг</p>
+                                    <a href="#" class="blog__card-link">Читать</a>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="blog__card">
+                                    <img class="blog__card-img" src="./images/blog-img2.jpg" alt="">
+                                    <p class="blog__card-date">Сегодня 15:25</p>
+                                    <p class="blog__card-text">Программа автобусной экскурсии из Петербурга в Выборг</p>
+                                    <a href="#" class="blog__card-link">Читать</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-button-prev">
+                            <img class="swiper-buttom-img" src="./images/icon/arrow-left.svg" alt="">
+                        </div>
+                        <div class="swiper-button-next">
+                            <img class="swiper-buttom-img" src="./images/icon/arrow-left.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+
+            <section class="subscription">
+                <div class="container subscription__inner">
+                    <h2 class="subscription__title">Подпишитесь <br> на нашу рассылку</h2>
+                    <p class="subscription__text">Подписывайтесь на удобный для Вас мессенджер</p>
+                    <ul class="subscription__social">
+                        <li class="subscription__social-item">
+                            <a class="subscription__social-link" href="#">
+                                <img class="subscription__social-icon" src="./images/icon/instagram-logo.svg" alt="">
+                                <p class="subscription__social-icontext">Instagram</p>
+                            </a>
+                        </li>
+                        <li class="subscription__social-item">
+                            <a class="subscription__social-link" href="#">
+                                <img class="subscription__social-icon" src="./images/icon/telegram-logo.svg" alt="">
+                                <p class="subscription__social-icontext">Telegram</p>
+                            </a>
+                        </li>
+                        <li class="subscription__social-item">
+                            <a class="subscription__social-link" href="#">
+                                <img class="subscription__social-icon" src="./images/icon/vk-logo.svg" alt="">
+                                <p class="subscription__social-icontext">Vkontakte</p>
+                            </a>
+                        </li>
+                    </ul>
+                    <p class="subscription__text-botton">
+                        При переходе в одну из указанных социальных сетей, вы автоматически соглашаетесь
+                        с политикой конфидециальности
+                    </p>
+                </div>
+            </section>
+            
+        </main>
+
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__inner">
+                    <div class="footer__application">
+                        <a href="#" class="logo-link footer__logo">
+                            <img src="./images/icon/logo.svg" alt="" class="logo__img">
+                        </a>
+                        <p class="footer__application-text">
+                            Скачайте наше преложение
+                        </p>
+                        <div class="footer__application-box">
+                            <a href="" class="footer__application-link">
+                                <img class="footer__application-img" src="./images/app-store-img.jpg" alt="">
+                            </a>
+                            <a href="" class="footer__application-link">
+                                <img class="footer__application-img" src="./images/google-play-img.jpg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <nav class="footer__menu">
+                        <ul class="footer__menu-list">
+                            <h3 class="footer__menu-title">Сервис</h3>
+                            <li class="footer__menu-item"><a href="#" class="footer__menu-link">О сервисе</a></li>
+                            <li class="footer__menu-item"><a href="#" class="footer__menu-link">Блог</a></li>
+                            <li class="footer__menu-item"><a href="#" class="footer__menu-link">Часто задаваемые вопросы</a></li>
+                            <li class="footer__menu-item"><a href="#" class="footer__menu-link">Способы оплаты</a></li>
+                        </ul>
+                        <ul class="footer__menu-list">
+                            <h3 class="footer__menu-title">Гидам</h3>
+                            <li class="footer__menu-item"><a href="#" class="footer__menu-link">Стать гидом</a></li>
+                            <li class="footer__menu-item"><a href="#" class="footer__menu-link">Правила работы</a></li>
+                        </ul>
+                        <ul class="footer__menu-list">
+                            <h3 class="footer__menu-title">Документы</h3>
+                            <li class="footer__menu-item"><a href="#" class="footer__menu-link">Политика возврата билетов</a></li>
+                            <li class="footer__menu-item"><a href="#" class="footer__menu-link">Договор оферты</a></li>
+                            <li class="footer__menu-item"><a href="#" class="footer__menu-link">Условия использования сайта</a></li>
+                            <li class="footer__menu-item"><a href="#" class="footer__menu-link">Политика обработки персональных данных</a></li>
+                            <li class="footer__menu-item"><a href="#" class="footer__menu-link">Реквизиты</a></li>
+                        </ul>
+                        <ul class="footer__menu-list">
+                            <h3 class="footer__menu-title">Поддержка клиентов</h3>
+                            <li class="footer__menu-item"><span class="footer__span footer__menu-itemtel">Телефон:</span><a href="tel:+74951234567">+7 (495) 123-45-67</a></li>
+                            <li class="footer__menu-item"><span class="footer__span footer__menu-itememail">E-mail:</span><a href="email:hello@trevelme.ru">hello@trevelme.ru</a></li>
+                            <li class="footer__menu-item"><span class="footer__span footer__menu-itemstrit">Офис:</span>Москва, ул. Название улицы 10, офис 11</li>
+                            <li class="footer__menu-item social">
+                                <a class="social__link" href="#"><img class="social__img" src="./images/icon/whatsapp-logo.svg" alt=""></a>
+                                <a class="social__link" href="#"><img class="social__img" src="./images/icon/telegram-logo.svg" alt=""></a>
+                                <a class="social__link" href="#"><img class="social__img" src="./images/icon/vk-logo.svg" alt=""></a>
+                                <a class="social__link" href="#"><img class="social__img" src="./images/icon/instagram-logo.svg" alt=""></a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="footer__bottom">
+                    <p class="footer__copy">© 2023 «Tenloc».</p>
+                    <div class="footer__bottom-card">
+                        <img class="footer__bottom-cardimg" src="./images/icon/card-img.svg" alt="">
+                        <p class="footer__bottom-text">Разработка сайта <a class="footer__bottom-link" href="https://razrabotka-saita.ru/" blanc><img src="./images/icon/logo-advanc.svg" alt=""></a></p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>

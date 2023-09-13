@@ -1,0 +1,45 @@
+.subscription{
+    padding: 105px 0;
+    &__inner{
+        background: url('../images/subscription-fon.jpg') center/cover no-repeat;
+        padding: 91px 106px 50px;
+        border-radius: 30px;
+        height: 527.484px;
+    }
+    &__title{
+        margin-bottom: 15px;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 40px;
+    }
+    &__text{
+        margin-bottom: 40px;
+        font-size: 16px;
+        line-height: 26px;
+    }
+    &__social{
+        display: flex;
+        gap: 21px;
+        margin-bottom: 112.5px;
+    }
+    &__social-icon{
+        width: 20px;
+        height: 20px;
+    }
+    &__social-link{
+        display: flex;
+        gap: 0 10px;
+    }
+    &__social-item{
+        background-color: #FFFFFF;
+        padding: 20px 28px;
+        border-radius: 9px;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.13));
+    }
+    &__text-botton{
+        max-width: 585px;
+        color: #7A7A7A;
+        font-size: 12px;
+        line-height: 19px;
+    }
+}

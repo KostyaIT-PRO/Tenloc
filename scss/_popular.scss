@@ -1,0 +1,45 @@
+.popular{
+    padding: 50px 0;
+    &__title{
+        margin-bottom: 17px;
+
+
+    }
+    &__text{
+        margin-bottom: 50px;
+        font-size: 16px;
+    }
+
+    &__inner{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 46px 46px;
+    }
+    &__card{
+        width: 449px;
+        height: 490px;
+        position: relative;
+        border-radius: 20px;
+        background-size: cover;
+        background-position: center;
+    }
+    &__card-content{
+        position: absolute;
+        left: 50px;
+        bottom: 50px;
+    }
+    &__card-text{
+        margin-bottom: 18.5px;
+        color: #FFFFFF;
+        font-size: 22px;
+        font-weight: 700;
+    }
+    &__card-link{
+        display: inline-block;
+        background-color: #FFD600;
+        padding: 8px 16px;
+        border-radius: 100px;
+        font-style: 13px;
+        font-weight: 500;
+    }
+}

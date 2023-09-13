@@ -1,0 +1,201 @@
+.excursions{
+    padding: 50px 0 104px;
+    text-align: center;
+    &__top{
+        display: flex;
+        align-items: center;
+        margin-bottom: 77px;
+    }
+
+    &__title{
+        margin-right: 54px;
+    }
+
+    &__form{
+        display: flex;
+        gap: 29px;
+    }
+
+    &__form select, input{
+        min-width: 241px;
+        border-radius: 10px;
+        border: 1px solid #E6E6E6;
+        padding: 14px 22px;
+        text-align: center;
+        color: #B7B7B7;
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+    }
+    &__card-pricebig{
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 26px;
+    }
+
+    &__tinner{
+        margin-bottom: 73px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 30px 35px;
+    }
+
+    &__link{
+        padding: 18px 19px;
+        background-color: #FFD600;
+        border-radius: 100px;
+        display: inline;
+        margin: 0 auto;
+        font-weight: 500;
+    }
+
+    &__card{
+        width: 334px;
+        text-align: left;
+        border-radius: 20px;
+        border: 1px solid #DFDFDF;
+        position: relative;
+    }
+    &__card-img{
+        width: 334px;
+    }
+    &__card-content{
+        padding: 21px 14px 19px 26px;
+    }
+    &__card-title{
+        margin-bottom: 10px;
+        font-size: 14px;
+        font-weight: 700;
+    }
+    &__card-text{
+        margin-bottom: 16px;
+        font-size: 12px;
+        color: #6A6A6A;
+        line-height: 20px;
+    }
+    &__card-line{
+        height: 1px;
+        background-color: #E6E6E6;
+        margin-bottom: 14px;
+    }
+    &__card-price{
+        margin-bottom: 15px;
+        font-size: 13px;
+    }
+
+    &__card-time{
+        width: 135px;
+        border-radius: 100px;
+        background: transparent;
+        border: 1px solid #E9E9E9;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        font-size: 12px;
+        font-weight: 400;
+        color: #252525;
+        padding: 8px 13px;
+    }
+
+    &__dropdown{
+        position: relative;
+        display: inline-block;
+        margin: 0;
+    }
+    &__dropbtn{
+        width: 135px;
+        border-radius: 100px;
+        background: transparent;
+        border: 1px solid #E9E9E9;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        font-size: 12px;
+        font-weight: 400;
+        color: #252525;
+        padding: 8px 13px;
+    }
+    &__dropbtn::after{
+        content: '';
+        background-image: url('../images/icon/right-arrow.svg');
+        width: 8px;
+        height: 8px;
+        background-position: center;
+        background-size: cover;
+        color: black;
+    }
+    &__dropdown-content{
+        width: 135px;
+        display: none;
+        font-size: 12px;
+        position: absolute;
+        background-color: #fafafa;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+        border-radius: 20px;
+        
+    }
+    &__dropdown-content:hover{
+        background-color: #ddd;
+    }
+    &__dropdown:hover &__dropdown-content{
+        display: block;
+    }
+    &__dropdown-link{
+        color: black;
+        padding: 12px;
+        text-decoration: none;
+        display: block;
+        text-align: center;
+        padding: 8px 13px;
+    }
+    &__dropdown-link:hover{
+        border-radius: 100px;
+        background: #FFD600;
+    }
+
+    &__card-like{
+        width: 46px;
+        height: 46px;
+        top: 15px;
+        right: 16px;
+        position: absolute;
+        border-radius: 100px;
+        background-color: rgba(255, 255, 255, 0.1);
+        background-image: url('../images/icon/love-1.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    &__card-plus{
+        width: 46px;
+        height: 46px;
+        right: 26px;
+        bottom: 23px;
+        position: absolute;
+        border-radius: 100px;
+        background-color: #E9E9E9;
+        background-image: url('../images/icon/plus-icon.svg');
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
+
+select {
+    font: inherit;
+    letter-spacing: inherit;
+    word-spacing: inherit;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+}
+  
+select:not([multiple]) {
+    padding-right: 72px;
+    background-repeat: no-repeat;
+    background-position: calc(100% - 22px) center;
+    background-size: 10px auto;
+    background-image: url(../images/icon/right-arrow.svg);
+}

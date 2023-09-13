@@ -1,0 +1,135 @@
+.feedback{
+    padding: 100px 0;
+    background-color: rgba(217, 217, 217, 0.15);
+    &__inner{
+        padding: 65px 91px;
+        background-color: #FFFFFF;
+        display: flex;
+        justify-content: space-between;
+        border-radius: 20px;
+    }
+    &__content{
+        max-width: 318px;
+    }
+
+    &__title{
+        margin-bottom: 21px;
+    }
+
+    &__text{
+        margin-bottom: 68px;
+        line-height: 26px;
+    }
+
+    &__btn{
+        padding: 18px 19px;
+        background-color: #FFD600;
+        border-radius: 100px;
+        display: inline;
+        margin: 0 auto;
+        font-weight: 500;
+        border: none;
+    }
+
+    &__slider{
+        width: 736px;
+        position: relative;
+
+    }
+
+    &__slide-content{
+        max-width: 565px;
+    }
+
+    &__slide-name{
+        margin-bottom: 24px;
+        font-style: 17px;
+        font-weight: 500;
+    }
+
+    &__slide-tourbox{
+        margin-bottom: 27px;
+        display: flex;
+    }
+
+    &__slide-tourbox span{
+        padding-left: 10px;
+    }
+
+    &__slide-tour{
+        margin-right: 49px;
+    }
+
+    &__slide-rating{
+        display: flex;
+        align-items: center;
+    }
+
+    &__slide-grade{
+        display: flex;
+        justify-content: center;
+        gap: 6px;
+    }
+
+    &__slider-btn{
+        position: absolute;
+        left: 500px;
+        bottom: 45px;
+    }
+
+    &__slider-pagination{
+        width: 120px;
+        position: absolute;
+        left: 500px;
+    }
+
+}
+
+
+.swiper-button-prev{
+    width: 44px;
+    height: 44px;
+    border-radius: 100%;
+    border: 1px solid #D2D2D2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-button-prev:after{
+    display: none;
+}
+.swiper-button-next:after{
+    display: none;
+}
+
+.swiper-button-next{
+    width: 44px;
+    height: 44px;
+    border-radius: 100%;
+    border: 1px solid #D2D2D2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-buttom-img{
+    width: 19px;
+    height: 19px;
+}
+
+.swiper-button-next img{
+    transform: rotate(180deg);
+}
+.swiper-slide {
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    border-radius: 20px;
+}
+
+
+.swiper-pagination-bullet-active{
+    background-color: #FFD600;
+}
